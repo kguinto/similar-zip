@@ -1,0 +1,17 @@
+{
+  "name": "similar_zip",
+  "version": "1.0.0",
+  "description": "Given a zip code, this script calculates the ten most similar zip codes by population, gender distribution, and wealth distribution.",
+  "main": "similar_zip.js",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make-data": "node data/make-data.js",
+    "start": "node data/make-data.js && node similar_zip.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
