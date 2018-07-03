@@ -1,0 +1,3 @@
+This folder contains a simple script to generate the `data.js` file, which is a transformed version of the data set from `https://api.census.gov/data/2015/acs5?get=B01003_001E,B01001_002E,B01001_026E,B19001_002E,B19001_003E,B19001_004E,B19001_005E,B19001_006E,B19001_007E,B19001_008E,B19001_009E,B19001_010E,B19001_011E,B19001_012E,B19001_013E,B19001_014E,B19001_015E,B19001_016E,B19001_017E&for=zip+code+tabulation+area:*&key=`_`<key>`_.
+
+The script, `make-data.js` requires [axios](https://www.npmjs.com/package/axios) and an API key configured in `api.config.js`, or an `original-data.js` file that exports the dataset.
